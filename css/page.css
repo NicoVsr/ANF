@@ -6,16 +6,19 @@ html {
   color: #FFF;
   background: radial-gradient(ellipse at bottom, #0c1116 0%, #090a0f 100%);
 }
-
+#canvas{
+  height: 300px;
+  width: 100%;
+}
 #horizon {
   position: absolute;
   width: 160%;
-  height: 70%;
+  height: 20%;
   border-radius: 100%/100%;
   background: #038bff;
   -webkit-filter: blur(30px);
   left: 50%;
-  bottom: 10%;
+  top: 20%;
   margin-left: -80%;
 }
 
@@ -57,11 +60,11 @@ html {
 #earth {
   position: absolute;
   width: 200%;
-  height: 100%;
+  height: 40%;
   background: black;
   border-radius: 100%/100%;
   left: 50%;
-  bottom: -20%;
+  top: 20%;
   margin-left: -100%;
 }
 
@@ -127,4 +130,13 @@ html {
     transform: translateY(-4px);
     opacity: 0;
   }
+}
+
+
+.texte{
+  height: 100%;
+  width: 100%;
+  background: #000;
+  position: absolute;
+  top: 50%;
 }
