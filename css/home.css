@@ -1,6 +1,25 @@
 body {
   overflow: hidden;
+  font-family: Oswald;
 }
+
+h1 {
+  bottom: 0;
+  color: white;
+  font-size: 4em;
+  left: 32%;
+  position: absolute;
+  z-index: 10;
+}
+
+p{
+  z-index: 7;
+  color: white;
+  position: absolute;
+}
+
+
+/* --------------------------------------CANVAS-------------------------------------- */
 #galaxy{
   opacity: 1;
   z-index: 5;
@@ -14,19 +33,11 @@ canvas{
   top: 0;
   left: 0;
 }
-h1 {
-  bottom: 0;
-  color: white;
-  font-size: 4em;
-  left: 27%;
-  position: absolute;
-  z-index: 10;
-}
 
+
+/* --------------------------------------LOGO-------------------------------------- */
 .logo {
-  animation-duration: 120s;
-  animation-iteration-count: infinite;
-  animation-name: rotate;
+  animation: rotate 100s linear infinite;
   left: 35%;
   position: absolute;
   top: 25%;
@@ -34,7 +45,146 @@ h1 {
   z-index: 10;
 }
 
-/* Background */
+@keyframes rotate {
+  0% {
+    opacity: 0.9;
+    transform: rotate(0deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotate(-360deg);
+  }
+}
+
+/* --------------------------------------TITRE PLANETE-------------------------------------- */
+.titre{
+  z-index: 10;
+  opacity: 0.5;
+  font-size: 1.3em;
+}
+
+.menu1 .titre{
+  left: 30.5%;
+  top: 18%;
+  transition: all 500ms ease-in-out 500ms;
+}
+
+.menu2 .titre{
+  left: 70%;
+  top: 28%;
+  transition: all 500ms ease-in-out 500ms;
+}
+
+.menu3 .titre{
+  left: 10%;
+  top: 43%;
+  transition: all 500ms ease-in-out 500ms;
+}
+
+.menu4 .titre{
+  left: 79%;
+  top: 63%;
+  transition: all 500ms ease-in-out 500ms;
+}
+
+.menu5 .titre{
+  left: 20%;
+  top: 72%;
+  transition: all 500ms ease-in-out 500ms;
+}
+
+
+/* --------------------------------------TITRE HOVER PLANETE-------------------------------------- */
+.hover{
+  z-index: 10;
+  font-size: 1.3em;
+  opacity: 0;
+}
+
+.menu1 .hover{
+  left: 30.5%;
+  top: 18%;
+  transition: all 500ms ease-in-out 500ms;
+}
+
+.menu2 .hover{
+  left: 70%;
+  top: 28%;
+  transition: all 500ms ease-in-out 500ms;
+}
+
+.menu3 .hover{
+  left: 10%;
+  top: 43%;
+  transition: all 500ms ease-in-out 500ms;
+}
+
+.menu4 .hover{
+  left: 79%;
+  top: 63%;
+  transition: all 500ms ease-in-out 500ms;
+}
+
+.menu5 .hover{
+  left: 20%;
+  top: 72%;
+  transition: all 500ms ease-in-out 500ms;
+}
+
+.menu1:hover .hover{
+  opacity: 0.5;
+  
+}
+
+.menu2:hover .hover{
+  opacity: 0.5;
+  
+}
+
+.menu3:hover .hover{
+  opacity: 0.5;
+  
+}
+
+.menu4:hover .hover{
+  opacity: 0.5;
+  
+}
+
+.menu5:hover .hover{
+  opacity: 0.5;
+  
+}
+
+.menu1:hover .titre{
+  opacity: 0;
+  
+}
+
+.menu2:hover .titre{
+  opacity: 0;
+  
+}
+
+.menu3:hover .titre{
+  opacity: 0;
+
+}
+
+.menu4:hover .titre{
+  opacity: 0;
+  
+}
+
+.menu5:hover .titre{
+  opacity: 0;
+  
+}
+
+
+
+/* --------------------------------------MENU ETOILE-------------------------------------- */
+/*positionnement*/
 .etoile {
   position: absolute;
   width: 65px;
@@ -44,32 +194,32 @@ h1 {
 .etoile1 {
   left: 30%;
   top: 10%;
-  z-index: 10;
 }
 
 .etoile2 {
   left: 70%;
   top: 20%;
-  z-index: 10;
 }
 
 .etoile3 {
-  left: 15%;
-  top: 50%;
-  z-index: 10;
+  left: 10%;
+  top: 35%;
 }
 
 .etoile4 {
   left: 80%;
   top: 55%;
-  z-index: 10;
+}
+
+.etoile5 {
+  left: 20%;
+  top: 65%;
 }
 
 .etoile:hover {
   animation: scintillement 1s ease-in-out infinite;
 }
 
-/* Animations */
 @keyframes scintillement {
   0% {
     opacity: 0.5;
@@ -85,18 +235,7 @@ h1 {
   }
 }
 
-@keyframes rotate {
-  0% {
-    opacity: 0.9;
-    transform: rotate(0deg);
-  }
-  100% {
-    opacity: 1;
-    transform: rotate(-360deg);
-  }
-}
-
-/*ETOILE*/
+/*dessin svg des étoiles avec animations*/
 
 svg {
   position: absolute;
@@ -125,6 +264,72 @@ path {
   -webkit-animation: small 5s infinite;
   -moz-animation: small 5s infinite;
 }
+
+.etoile2 .large {
+  -webkit-animation: large 5s infinite;
+  -moz-animation: large 5s infinite;
+  animation-delay: 400ms;
+}
+.etoile2 .large-2 {
+  -webkit-animation: large-2 5s infinite;
+  -moz-animation: large-2 5s infinite;
+  animation-delay: 400ms;
+}
+.etoile2 .small {
+  -webkit-animation: small 5s infinite;
+  -moz-animation: small 5s infinite;
+  animation-delay: 400ms;
+}
+
+.etoile3 .large {
+  -webkit-animation: large 5s infinite;
+  -moz-animation: large 5s infinite;
+  animation-delay: 800ms;
+}
+.etoile3 .large-2 {
+  -webkit-animation: large-2 5s infinite;
+  -moz-animation: large-2 5s infinite;
+  animation-delay: 800ms;
+}
+.etoile3 .small {
+  -webkit-animation: small 5s infinite;
+  -moz-animation: small 5s infinite;
+  animation-delay: 800ms;
+}
+
+.etoile4 .large {
+  -webkit-animation: large 5s infinite;
+  -moz-animation: large 5s infinite;
+  animation-delay: 1200ms;
+}
+.etoile4 .large-2 {
+  -webkit-animation: large-2 5s infinite;
+  -moz-animation: large-2 5s infinite;
+  animation-delay: 1200ms;
+}
+.etoile4 .small {
+  -webkit-animation: small 5s infinite;
+  -moz-animation: small 5s infinite;
+  animation-delay: 1200ms;
+}
+
+
+.etoile5 .large {
+  -webkit-animation: large 5s infinite;
+  -moz-animation: large 5s infinite;
+  animation-delay: 1600ms;
+}
+.etoile5 .large-2 {
+  -webkit-animation: large-2 5s infinite;
+  -moz-animation: large-2 5s infinite;
+  animation-delay: 1600ms;
+}
+.etoile5 .small {
+  -webkit-animation: small 5s infinite;
+  -moz-animation: small 5s infinite;
+  animation-delay: 1600ms;
+}
+
 @-webkit-keyframes large {
   0% {
     opacity: 0.5;
@@ -254,3 +459,4 @@ path {
     transform: rotate(0deg) scale(0.5);
   }
 }
+/* --------------------------------------------------------------------------------------- */
