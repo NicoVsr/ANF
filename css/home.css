@@ -66,31 +66,31 @@ canvas{
 .menu1 .titre{
   left: 30.5%;
   top: 18%;
-  transition: all 500ms ease-in-out 500ms;
+  transition: all 250ms linear 250ms;
 }
 
 .menu2 .titre{
   left: 70%;
   top: 28%;
-  transition: all 500ms ease-in-out 500ms;
+  transition: all 250ms linear 250ms;
 }
 
 .menu3 .titre{
   left: 10%;
   top: 43%;
-  transition: all 500ms ease-in-out 500ms;
+  transition: all 250ms linear 250ms;
 }
 
 .menu4 .titre{
   left: 79%;
   top: 63%;
-  transition: all 500ms ease-in-out 500ms;
+  transition: all 250ms linear 250ms;
 }
 
 .menu5 .titre{
   left: 20%;
   top: 72%;
-  transition: all 500ms ease-in-out 500ms;
+  transition: all 250ms linear 250ms;
 }
 
 
@@ -104,31 +104,31 @@ canvas{
 .menu1 .hover{
   left: 30.5%;
   top: 18%;
-  transition: all 500ms ease-in-out 500ms;
+  transition: all 250ms linear 250ms;
 }
 
 .menu2 .hover{
   left: 70%;
   top: 28%;
-  transition: all 500ms ease-in-out 500ms;
+  transition: all 250ms linear 250ms;
 }
 
 .menu3 .hover{
   left: 10%;
   top: 43%;
-  transition: all 500ms ease-in-out 500ms;
+  transition: all 250ms linear 250ms;
 }
 
 .menu4 .hover{
   left: 79%;
   top: 63%;
-  transition: all 500ms ease-in-out 500ms;
+  transition: all 250ms linear 250ms;
 }
 
 .menu5 .hover{
   left: 20%;
   top: 72%;
-  transition: all 500ms ease-in-out 500ms;
+  transition: all 250ms linear 250ms;
 }
 
 .menu1:hover .hover{
