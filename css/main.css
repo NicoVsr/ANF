@@ -1,125 +1,131 @@
+/* -------------------------------------- BASE -------------------------------------- */
+
 body {
-  overflow: hidden;
-  font-family: Oswald;
+    font-family: Oswald, sans-serif;
+    overflow: hidden;
 }
 
 h1 {
-  bottom: 0;
-  color: white;
-  font-size: 4em;
-  left: 32%;
-  position: absolute;
-  z-index: 10;
+    bottom: 0;
+    color: white;
+    font-size: 4em;
+    left: 32%;
+    position: absolute;
+    z-index: 10;
 }
 
-p{
-  z-index: 7;
-  color: white;
-  position: absolute;
+p {
+    color: white;
+    position: absolute;
+    z-index: 7;
 }
 
+/* -------------------------------------- CANVAS BACKGROUND -------------------------------------- */
 
-/* --------------------------------------CANVAS-------------------------------------- */
-#galaxy{
-  opacity: 1;
-  z-index: 5;
-}
-#canvas{
-  opacity: 0.4;
-  z-index: 6
-}
-canvas{
-  position: absolute;
-  top: 0;
-  left: 0;
+#galaxy {
+    opacity: 1;
+    z-index: 5;
 }
 
+#canvas {
+    opacity: 0.4;
+    z-index: 6
+}
 
-/* --------------------------------------LOGO-------------------------------------- */
+canvas {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+/* -------------------------------------- LOGO -------------------------------------- */
+
 .logo {
-  animation: rotate 100s linear infinite;
-  left: 35%;
-  position: absolute;
-  top: 25%;
-  width: 30%;
-  z-index: 10;
+    animation: rotate 100s linear infinite;
+    left: 35%;
+    position: absolute;
+    top: 25%;
+    width: 30%;
+    z-index: 10;
 }
 
 @keyframes rotate {
-  0% {
-    opacity: 0.9;
-    transform: rotate(0deg);
-  }
-  100% {
+    0% {
+        opacity: 0.9;
+        transform: rotate(0deg);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(-360deg);
+    }
+}
+
+/* -------------------------------------- NAV -------------------------------------- */
+
+.nav {
+    padding-right: 4%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 11;
+}
+
+li {
+    display: inline-block;
+    font-size: 1.6em;
+    list-style: none;
+}
+
+a {
+    color: #FFFFFF;
+    margin: 5px;
+    opacity: 0.5;
+    text-decoration: none;
+    transition: all 500ms;
+}
+
+a:hover {
     opacity: 1;
-    transform: rotate(-360deg);
-  }
 }
 
-/* --------------------------------------NAV-------------------------------------- */
+/* -------------------------------------- PAGE NEWS -------------------------------------- */
 
-.nav{
-  position: absolute;
-  z-index: 11;
-  right: 0;
-  top: 0;
-}
-li{
-  font-size: 1.5em;
-  list-style: none;
-  display: inline-block;
-}
-a{
-  margin: 5px;
-  color: white;
-  text-decoration: none;
-  opacity: 0.4;
-  transition: all 500ms;
-}
-a:hover{
-  opacity: 1;
+.news {
+    background: black;
+    height: 47%;
+    left: 25%;
+    overflow: hidden;
+    overflow-y: auto;
+    padding: 3%;
+    position: absolute;
+    top: 25%;
+    width: 47%;
+    z-index: 11;
 }
 
-/* --------------------------------------PAGE NEWS-------------------------------------- */
+.titre {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Playfair, serif;
+    font-size: 1.5em;
+    z-index: 10;
+}
 
-.news{
-  padding: 3%;
-  position: absolute;
-  z-index: 11;
-  left: 25%;
-  top: 25%;
-  background: black;
-  height: 47%;
-  width: 47%;
-  overflow: hidden;
-  overflow-y: auto;
-}
-.titre{
-  color: rgba(255, 255, 255, 0.5);
-  font-family: Playfair;
-  font-size: 1.5em;
-  z-index: 10;
-}
-td{
+td {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    opacity: 0.7;
     padding-top: 7%;
-  color: white;
-  font-family: Arial;
-  font-size: 1em;
-  opacity: 0.7;
-}
-.td1{
-  width: 40%;
-}
-.td2{
-  width: 50%;
-}
-.td3{
-  width: 60%;
 }
 
+.td1 {
+    width: 40%;
+}
 
+.td2 {
+    width: 50%;
+}
 
-
-
-
-
+.td3 {
+    width: 60%;
+}
