@@ -80,8 +80,42 @@ a:hover{
   opacity: 1;
 }
 
+/* --------------------------------------PAGE NEWS-------------------------------------- */
 
-
+.news{
+  padding: 3%;
+  position: absolute;
+  z-index: 11;
+  left: 25%;
+  top: 25%;
+  background: black;
+  height: 47%;
+  width: 47%;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.titre{
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Playfair;
+  font-size: 1.5em;
+  z-index: 10;
+}
+td{
+    padding-top: 7%;
+  color: white;
+  font-family: Arial;
+  font-size: 1em;
+  opacity: 0.7;
+}
+.td1{
+  width: 40%;
+}
+.td2{
+  width: 50%;
+}
+.td3{
+  width: 60%;
+}
 
 
 
