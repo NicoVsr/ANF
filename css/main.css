@@ -71,6 +71,11 @@ canvas {
     z-index: 11;
 }
 
+.nav img {
+    padding-top: 5px;
+    width: 30px;
+}
+
 li {
     display: inline-block;
     font-size: 1.6em;
@@ -133,7 +138,7 @@ td {
 
 /* -------------------------------------- PAGE CONTACT -------------------------------------- */
 
-.contact{
+.contact {
     background: black;
     height: 47%;
     left: 25%;
@@ -148,20 +153,20 @@ td {
 
 .titre {
     color: rgba(255, 255, 255, 0.5);
-    font-family: Playfair, serif;
-    font-size: 2em;
+    font-family: Oswald, sans-serif;
+    font-size: 1.8em;
     z-index: 11;
 }
 
-.management{
+.management {
     color: rgba(255, 255, 255, 0.5);
-    font-family: Playfair, serif;
-    padding-top: 5%;
-    font-size: 1.2em;
+    font-size: 1em;
+    padding-top: 3%;
+    padding-bottom: 4%;
 }
 
 .info {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
 }
 
 /* -------------------------------------- PAGE PROJECT -------------------------------------- */
