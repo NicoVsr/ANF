@@ -130,3 +130,37 @@ td {
 .td3 {
     width: 60%;
 }
+
+/* -------------------------------------- PAGE CONTACT -------------------------------------- */
+
+.contact{
+    background: black;
+    height: 47%;
+    left: 25%;
+    overflow: hidden;
+    overflow-y: auto;
+    padding: 3%;
+    position: absolute;
+    top: 25%;
+    width: 47%;
+    z-index: 12;
+}
+
+.titre {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Playfair, serif;
+    font-size: 2em;
+    z-index: 11;
+}
+
+.management{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Playfair, serif;
+    padding-top: 5%;
+    font-size: 1.2em;
+}
+
+.info {
+    color: rgba(255, 255, 255, 0.5);
+}
+
