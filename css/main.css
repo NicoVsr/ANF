@@ -151,23 +151,44 @@ td {
     z-index: 12;
 }
 
-.titre {
+.titre{
     color: rgba(255, 255, 255, 0.5);
-    font-family: Oswald, sans-serif;
-    font-size: 1.8em;
-    z-index: 11;
+    font-family: Playfair, sans-serif;
+    font-size: 1.5em;
+    z-index: 10;
+    margin-bottom: 5%;
 }
 
-.management {
-    color: rgba(255, 255, 255, 0.5);
+td{
+    padding-top: 1%;
+    color: white;
+    font-family: Arial, sans-serif;
     font-size: 1em;
-    padding-top: 3%;
-    padding-bottom: 4%;
+    opacity: 0.7;
+    padding-bottom: 3%;
+}
+.td4{
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Playfair, sans-serif;
+}
+.td1{
+    width: 40%;
+}
+.td2{
+    width: 50%;
+}
+.td3{
+    width: 60%;
+}
+.td5{
+    width: 10%;
+}
+.td6{
+    right:25%;
+    float: right;
 }
 
-.info {
-    color: rgba(255, 255, 255, 1);
-}
+
 
 /* -------------------------------------- PAGE PROJECT -------------------------------------- */
 
