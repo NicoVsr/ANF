@@ -43,8 +43,9 @@ canvas {
 .logo {
     animation: rotate 100s linear infinite;
     left: 35%;
+    min-width: 180px;
     position: absolute;
-    top: 25%;
+    top: 20%;
     width: 30%;
     z-index: 10;
 }
