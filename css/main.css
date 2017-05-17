@@ -160,7 +160,7 @@ td {
 }
 
 td{
-    padding-top: 1%;
+    padding-top: 2%;
     color: white;
     font-family: Arial, sans-serif;
     font-size: 1em;
@@ -168,24 +168,17 @@ td{
     padding-bottom: 3%;
 }
 .td4{
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 1.0);
     font-family: Playfair, sans-serif;
 }
-.td1{
-    width: 40%;
-}
-.td2{
-    width: 50%;
-}
-.td3{
-    width: 60%;
-}
 .td5{
-    width: 10%;
-}
-.td6{
     right:25%;
-    float: right;
+}
+.space{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
 }
 
 
