@@ -94,6 +94,17 @@ a:hover {
     opacity: 1;
 }
 
+/* -------------------------------------- NETWORKS -------------------------------------- */
+
+.networks {
+    margin-top: 25%;
+    margin-left: 93%;
+    color: white;
+    z-index: 10;
+    position: absolute;
+    font-size: 2em;
+}
+
 /* -------------------------------------- PAGE NEWS -------------------------------------- */
 
 .news {
