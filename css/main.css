@@ -13,6 +13,13 @@ h1 {
     position: absolute;
     z-index: 10;
 }
+@media (max-width: 728px) {
+    h1 {
+        bottom: 20%;
+        width: 100%;
+        font-size: 2em;
+    }
+}
 
 p {
     color: white;
@@ -43,6 +50,12 @@ canvas {
     top: 20%;
     width: 30%;
     z-index: 10;
+}
+@media (max-width: 728px) {
+    .logo {
+        width: 60%;
+        left:24%;
+    }
 }
 
 @keyframes rotate {
@@ -94,13 +107,24 @@ a:hover {
 .networks {
     color: white;
     z-index: 10;
-    position: relative;
+    position: absolute;
     font-size: 1.5em;
-    padding: 10px;
     width: 6%;
     left: 91.66666667%;
-    margin-top: 35%;
+    bottom: 0;
 }
+
+@media (max-width: 728px) {
+    .networks {
+        left: 30%;
+        width: 100vw;
+    }
+}
+
+@media (max-width: 375px) {
+    /* responsive téléphone*/
+}
+
 
 /* -------------------------------------- PAGE NEWS -------------------------------------- */
 
