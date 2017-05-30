@@ -36,7 +36,7 @@ canvas {
 /* -------------------------------------- LOGO -------------------------------------- */
 
 .logo {
-    animation: rotate 100s linear infinite;
+/*    animation: rotate 100s linear infinite;*/
     left: 35%;
     min-width: 180px;
     position: absolute;
@@ -168,9 +168,6 @@ td {
 }
 
 td {
-    padding-top: 2%;
-
-td {
     padding-top: 1%;
     color: white;
     font-family: Arial, sans-serif;
@@ -218,7 +215,6 @@ td {
 .td6 {
     right: 25%;
     float: right;
-> > > > > > > Stashed changes
 }
 
 /* -------------------------------------- PAGE PROJECT -------------------------------------- */
@@ -231,4 +227,34 @@ td {
 
 }
 
-/* -------------------------------------- LOADER -------------------------------------- */
+/* -------------------------------------- FLECHE NAV -------------------------------------- */
+
+.fleche{
+    position: absolute;
+    z-index: 20;
+}
+
+.fleche_gauche{
+    transform: rotate(180deg);
+    top: 45%;
+    left: 0%;
+}
+
+.fleche_droite{
+
+    top: 45%;
+    left: 95%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
