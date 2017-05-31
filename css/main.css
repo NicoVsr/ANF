@@ -71,6 +71,23 @@ body {
     width: 100%;
 }
 
+/* -------------------------------------- NETWORKS -------------------------------------- */
+
+.networks {
+    position: absolute;
+    font-size: 2em;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    width: 8.33333333%;
+    right: 0;
+    bottom: 0;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
 /* -------------------------------------- INDEX -------------------------------------- */
 
 /*LOGO*/
