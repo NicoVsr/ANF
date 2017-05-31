@@ -1,7 +1,11 @@
 /* -------------------------------------- BASE -------------------------------------- */
 
 body {
-    background-image: url(../img/Fond.jpg);
+    background: url(../img/Fond.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /* -------------------------------------- NAVBAR -------------------------------------- */
