@@ -215,3 +215,13 @@ td {
     width: 60%;
     z-index: 990;
 }
+
+.newstxt {
+    transform: rotate(-90deg);
+    < img class = "mini" src = "img/logo_BAP_v3.png" alt = "Contact" >
+
+    position: absolute;
+    left: 0;
+    bottom: -38%;
+    font-size: 5em;
+}
