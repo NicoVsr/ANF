@@ -1,7 +1,7 @@
 /* -------------------------------------- BASE -------------------------------------- */
 
 body {
-    background: url(../img/Fond.jpg) no-repeat center center fixed;
+    background: url(../img/bg-galaxy.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -88,7 +88,37 @@ ul {
     list-style: none;
 }
 
+<<<<<<< HEAD
 
 /* -------------------------------------- CONTACT -------------------------------------- */
+=======
+/* -------------------------------------- INDEX -------------------------------------- */
+
+/*LOGO*/
+
+.logo{
+    text-align: center; 
+}
+
+.fond{
+    animation: rotate 100s linear infinite;
+}
+
+@keyframes rotate{
+    0%{
+       transform: rotate(0deg);
+    }
+    100%{
+       transform: rotate(360deg);
+    }
+}
+
+.nom{
+    position: absolute;
+    left: 12%;
+    top: 8%;
+    width: 75%;
+}
+>>>>>>> master
 
 
