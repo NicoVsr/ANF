@@ -90,9 +90,9 @@ body {
 .networks {
     position: absolute;
     font-size: 2em;
-    padding-right: 5%;
-    padding-bottom: 5%;
-    width: 8.33333333%;
+    padding-right: 6%;
+    padding-bottom: 2vh;
+    width: 8.5%;
     right: 0;
     bottom: 0;
 }
@@ -105,10 +105,21 @@ ul {
     list-style: none;
 }
 
+
 /* -------------------------------------- CONTACT -------------------------------------- */
 
 .violet {
     margin-top: 10vh;
+}
+.speaker {
+    margin-top: 120px;
+}
+
+.mini{
+    height: 150px;
+    width: 150px;
+    margin-left: 220%;
+    margin-top: 15%;
 }
 
 /* -------------------------------------- INDEX -------------------------------------- */
@@ -141,10 +152,10 @@ ul {
     width: 65%;
 }
 
+
 /* -------------------------------------- PAGE NEWS -------------------------------------- */
 
 .news {
-    background: black;
     height: 47%;
     left: 25%;
     overflow: hidden;
