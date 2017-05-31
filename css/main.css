@@ -14,7 +14,7 @@ body {
 .navbar-nav > li {
     float: none;
     display: inline-block;
-    margin: 20px 30px;
+    margin: 20px 4%;
 }
 
 .navbar-nav a {
