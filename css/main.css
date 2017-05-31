@@ -1,7 +1,10 @@
-/* -------------------------------------- BASE -------------------------------------- */
 
 body {
-    background: url(../img/bg-galaxy.jpg) no-repeat center center fixed; 
+    background: #000;
+}
+
+.wallpaper {
+    background: url('../img/bg-galaxy.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -96,27 +99,28 @@ ul {
 
 /*LOGO*/
 
-.logo{
-    text-align: center; 
+.logo {
+    text-align: center;
 }
 
-.fond{
+.fond {
     animation: rotate 100s linear infinite;
+    width: 82%;
 }
 
-@keyframes rotate{
-    0%{
-       transform: rotate(0deg);
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
     }
-    100%{
-       transform: rotate(360deg);
+    100% {
+        transform: rotate(360deg);
     }
 }
 
-.nom{
+.nom {
     position: absolute;
     left: 12%;
-    top: 8%;
+    top: 2.5%;
     width: 75%;
 }
 >>>>>>> master
