@@ -25,7 +25,7 @@ body {
     float: none;
     display: inline-block;
     margin: 20px 4%;
-        z-index: 999;
+    z-index: 999;
 }
 
 .navbar-nav a {
@@ -33,7 +33,7 @@ body {
     cursor: pointer;
     position: relative;
     text-decoration: none;
-        z-index: 999;
+    z-index: 999;
 }
 
 .navbar-nav a:before {
@@ -44,7 +44,7 @@ body {
     left: 0;
     position: absolute;
     width: 0;
-        z-index: 999;
+    z-index: 999;
 }
 
 .navbar-nav a:after {
@@ -87,13 +87,14 @@ body {
 
 /* -------------------------------------- FLECHES -------------------------------------- */
 
-.fleche{
+.fleche {
     margin-top: 36vh;
 }
 
-.fleche_droite{
+.fleche_droite {
     transform: rotate(180deg);
 }
+
 /* -------------------------------------- NETWORKS -------------------------------------- */
 
 .networks {
@@ -119,16 +120,18 @@ ul {
 .violet {
     margin-top: 10vh;
 }
+
 .speaker {
     margin-top: 120px;
     margin-left: 15px;
 }
 
-.mini{
-    height: 150px;
-    width: 150px;
-    margin-left: 220%;
-    margin-top: 15%;
+.mini {
+    bottom: 0;
+    position: absolute;
+    padding-top: 8vh;
+    right: 0;
+    width: 8%;
 }
 
 /* -------------------------------------- INDEX -------------------------------------- */
