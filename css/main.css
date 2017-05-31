@@ -45,20 +45,24 @@ body {
     width: 0;
 }
 
+/* Hover */
+
+.nav li a:hover {
+    background-color: transparent;
+}
+
 .navbar-nav a:hover {
     color: #fff;
-    background: transparent;
     text-decoration: none;
 }
 
-.menu1 a:hover:before {
+.navbar-nav a:hover:before {
     background: #fff;
     transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
     width: 100%;
 }
 
 .navbar-nav a:hover:after {
-    background: transparent;
     transition: 0s;
     width: 100%;
 }
