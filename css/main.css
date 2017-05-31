@@ -85,6 +85,14 @@ body {
     z-index: 999;
 }
 
+@media screen and (max-width: 768px) {
+    .navbar-nav li{
+        font-size: 1em;
+        width: 16%;
+        display: inline-block;
+    }
+}
+
 /* -------------------------------------- FLECHES -------------------------------------- */
 
 .fleche {
@@ -118,6 +126,12 @@ a {
 
 ul {
     list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+    .networks {
+        right: 10%;
+    }
 }
 
 /* -------------------------------------- CONTACT -------------------------------------- */
