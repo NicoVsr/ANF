@@ -18,12 +18,14 @@ body {
 .navbar-nav {
     width: 100%;
     text-align: center;
+    z-index: 999;
 }
 
 .navbar-nav > li {
     float: none;
     display: inline-block;
     margin: 20px 4%;
+        z-index: 999;
 }
 
 .navbar-nav a {
@@ -31,6 +33,7 @@ body {
     cursor: pointer;
     position: relative;
     text-decoration: none;
+        z-index: 999;
 }
 
 .navbar-nav a:before {
@@ -41,6 +44,7 @@ body {
     left: 0;
     position: absolute;
     width: 0;
+        z-index: 999;
 }
 
 .navbar-nav a:after {
@@ -52,28 +56,33 @@ body {
     right: 0;
     transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
     width: 0;
+    z-index: 999;
 }
 
 /* Hover */
 
 .nav li a:hover {
     background-color: transparent;
+    z-index: 999;
 }
 
 .navbar-nav a:hover {
     color: #fff;
     text-decoration: none;
+    z-index: 999;
 }
 
 .navbar-nav a:hover:before {
     background: #fff;
     transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
     width: 100%;
+    z-index: 999;
 }
 
 .navbar-nav a:hover:after {
     transition: 0s;
     width: 100%;
+    z-index: 999;
 }
 
 /* -------------------------------------- FLECHES -------------------------------------- */
@@ -128,6 +137,7 @@ ul {
 
 .logo {
     text-align: center;
+    border-radius: 50%;
     margin-top: -5vh;
 }
 
