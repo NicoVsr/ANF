@@ -97,9 +97,12 @@ body {
 
 .fleche {
     margin-top: 36vh;
+    height: 75px;
+    width: 75px;
 }
 
 .fleche_droite {
+    margin-left: 100px;
     transform: rotate(180deg);
 }
 @media screen and (max-width: 768px) {
@@ -153,6 +156,14 @@ ul {
     width: 8%;
 }
 
+.contact{
+    color: #939aa1;
+    margin-top: 110px;
+    margin-left: 140px;
+}
+
+
+
 /* -------------------------------------- INDEX -------------------------------------- */
 
 /*LOGO*/
@@ -165,7 +176,8 @@ ul {
 
 .fond {
     animation: rotate 100s linear infinite;
-    width: 82%;
+    width: 50%;
+    margin-top: 100px;
 }
 
 @keyframes rotate {
@@ -179,9 +191,9 @@ ul {
 
 .nom {
     position: absolute;
-    left: 17%;
-    top: 7%;
-    width: 65%;
+    left: 30%;
+    top: 25%;
+    width: 40%;
 }
 
 /* -------------------------------------- PAGE NEWS -------------------------------------- */
@@ -237,10 +249,16 @@ td {
 
 .newstxt {
     transform: rotate(-90deg);
-    < img class = "mini" src = "img/logo_BAP_v3.png" alt = "Contact" >
-
     position: absolute;
     left: 0;
     bottom: -38%;
     font-size: 5em;
+    margin-left: 80px;
+}
+
+/* -------------------------------------- VIDEO -------------------------------------- */
+
+video{
+    height: 360px;
+    width: 640px;
 }
